@@ -1,0 +1,30 @@
+{
+  "name": "dns-leak-test",
+  "version": "1.0.0",
+  "description": "a toolset for dns leak test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levin-du/dns-leak-test.git"
+  },
+  "keywords": [
+    "dns",
+    "leak"
+  ],
+  "author": "levin du",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/levin-du/dns-leak-test/issues"
+  },
+  "homepage": "https://github.com/levin-du/dns-leak-test#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "native-dns": "^0.7.0"
+  }
+}
